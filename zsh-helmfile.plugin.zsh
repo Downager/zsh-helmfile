@@ -1,4 +1,4 @@
-if (( $+commands[kubectl] )); then
+if (( $+commands[helmfile] )); then
     __HELMFILE_COMPLETION_FILE="${ZSH_CACHE_DIR}/HELMFILE_completion"
 
     if [[ ! -f $__HELMFILE_COMPLETION_FILE || ! -s $__HELMFILE_COMPLETION_FILE ]]; then
